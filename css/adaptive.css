@@ -1,0 +1,142 @@
+@media screen and (max-width: 1200px) {
+  .container,
+  .header-container {
+    width: 968px !important;
+    padding: 0 15px;
+  }
+  .project-title h2 {
+    margin-right: 0 !important;
+  }
+  .project-body {
+    justify-content: center;
+    margin-left: 0 !important;
+  }
+  .project-block:last-child {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container,
+  .header-container {
+    width: 720px !important;
+    padding: 0 15px;
+  }
+  .header-body {
+    display: block !important;
+    text-align: center;
+  }
+  .menu__item:last-child {
+    background: none !important;
+    width: auto !important;
+    height: auto !important;
+    margin-left: 10px !important;
+  }
+  .menu__item:last-child p {
+    display: none;
+  }
+  .personal {
+    display: block !important;
+  }
+  .account,
+  .personal-name p,
+  .personal-name span {
+    margin: 0 auto !important;
+    margin-top: 10px !important;
+  }
+  .account {
+    margin-top: 0;
+  }
+  .personal {
+    margin-top: 0;
+  }
+  .menu {
+    justify-content: center;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .header-menu {
+    padding-bottom: 20px;
+  }
+  .personal-dropdown {
+    right: 25% !important;
+    transform: translateX(-25%) !important;
+    top: 85px !important;
+  }
+  .country {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 114px;
+  }
+  .country span {
+    margin-top: 0 !important;
+  }
+  .project-block:nth-child(3) {
+    margin-top: 30px;
+  }
+  .project-block:last-child {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container,
+  .header-container {
+    width: 540px !important;
+    padding: 0 15px;
+  }
+  content {
+    opacity: 1 !important;
+  }
+  .menu {
+    display: none;
+  }
+  .personal {
+    margin-top: 20px;
+  }
+  .region {
+    margin-right: 0;
+  }
+  .menu {
+    display: none !important;
+  }
+  .project {
+    padding-bottom: 75px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container,
+  .header-container {
+    width: 90% !important;
+  }
+  .project-body {
+    display: block !important;
+  }
+  .project-block:nth-child(3) {
+    margin-right: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .project-block:nth-child(2) {
+    margin-left: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .project-block:last-child {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .project-block:first-child {
+    margin: 0 auto;
+  }
+  .project-block {
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  .logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .personal-dropdown {
+  	right: 0% !important;
+    transform: translateX(0%) !important;
+  }
+}

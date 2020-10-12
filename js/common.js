@@ -1,0 +1,26 @@
+$(document).ready(function(event){
+$('.autor-button').click(function(event){
+		$('.autor-button').css('background','#17335E');
+		$('.custom-button').css('background','#334D75');
+		$('.customer-menu').css('display','none');
+		$('.autor-menu').css('display','block');
+	});
+	$('.custom-button').click(function(event){
+		$('.custom-button').css('background','#17335E');
+		$('.autor-button').css('background','#334D75');
+		$('.autor-menu').css('display','none');
+		$('.customer-menu').css('display','block');
+	});
+	$('.account').click(function(event){
+		$('.personal-dropdown').toggleClass('personal-dropdown-active');
+		$('.account').toggleClass('account-active');
+		$('.autor-menu').css('display','none');
+		$('.customer-menu').css('display','block');
+		$('.custom-button').css('background','#17335E');
+		$('.autor-button').css('background','#334D75');
+	});
+	$('.flag-russia').click(function(event){
+		$('.country').toggleClass('country-active');
+		$('.personal-name span').toggleClass('russian-active');
+	});
+});		
